@@ -1,2 +1,25 @@
+![pip80 logo](assets/logo/pip80-logo-128.png)
+
 # pip80
-Collaborative Z80 based homebrew game console.
+pip80 is an open-source collaborative Z80 based homebrew game console.
+
+<br />
+
+⚠️ **This project is just starting out and therefore not production ready.**
+
+<br />
+
+## SDK
+
+Coming soon...
+
+<br />
+
+## Examples
+
+Coming soon...
+
+<br />
+
+## Credits
+* [Machine learning icons created by Flat Icons](https://www.flaticon.com/free-icons/machine-learning)
