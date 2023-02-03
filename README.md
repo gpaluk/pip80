@@ -5,7 +5,7 @@ pip80 is an open-source collaborative Z80 based homebrew game console.
 
 <br />
 
-⚠️ **This project is just starting out and therefore not production ready.**
+**warning** **This project is just starting out and therefore not production ready.**
 
 <br />
 
