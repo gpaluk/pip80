@@ -11,7 +11,7 @@ The **pip80** is designed to be modular and aims to reduce the runaway effect of
 
 <br />
 
-⚠️ **This project is just starting out and therefore not production ready.**
+> **Warning**: **This project is just starting out and therefore not production ready.**
 
 <br />
 
