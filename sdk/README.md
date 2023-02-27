@@ -3,5 +3,5 @@
 ## This SDK is currently under development and not production ready.
 
 ```C
-void SMS_init (void);
+void PIP_init (void);
 ```
