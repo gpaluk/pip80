@@ -23,7 +23,7 @@ You can find schematics for the pip80 at [I'm an inline-style link](https://www.
 
 # 🔹Project goals
 
-The **pip80** project aims to provide a simple z80 computer project that balances simplistic design and high performance. Ideally, anyone should be able to build a **pip80** computer onto a breadboard, with minimal technical knowledge.
+The **pip80** project aims to provide a simple Z80 computer project that balances simplistic design and high performance. Ideally, anyone should be able to build a **pip80** computer, onto a breadboard, with minimal technical knowledge.
 
 The **pip80** is based on a modular design that consists of the following modules:
 
@@ -85,7 +85,7 @@ Coming soon...
 
 # 🔹SDK
 
-Coming soon...
+The **pip80** SDK is written for the C programming language and offers a collection of utilities and routines. The SDK can be found [HERE](sdk/) as part of this repository.
 
 <br />
 
