@@ -40,10 +40,19 @@ For increased performance, we have included a **DMA** chip into the **pip80** de
 
 # 🔹 Components
 
-
 ### ❇️ Timing module
 
-Coming soon...
+- 56 MHz active crystal oscillator
+
+For overall simplicity, our timing module includes a simple frequency divider that produces the following frequencies:
+
+- 56.0 MHz
+- 28.0 MHz
+- 14.0 MHz
+- 7.0 MHz
+- 3.5 MHz
+
+This means that various modules will be clocked with frequencies that do not approach their maximum tollerances. For example, our 20MHz CPU will be clocked at 14MHz and our 3.58 MHz OPL2 will be clocked at 3.5 MHz etc.
 
 <br />
 
