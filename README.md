@@ -17,6 +17,8 @@ The **pip80** is designed to be modular and aims to reduce the runaway effect of
 
 # 🔹Schematics
 
+Coming soon...
+
 You can find schematics for the pip80 at [I'm an inline-style link](https://www.google.com).
 
 <br />
@@ -42,7 +44,15 @@ For increased performance, we have included a **DMA** chip into the **pip80** de
 
 ### ❇️ Timing module
 
+<br />
+
+**Parts list**
+
 - 56 MHz active crystal oscillator
+
+<br />
+
+**Details**
 
 For overall simplicity, our timing module includes a simple frequency divider that produces the following frequencies:
 
@@ -64,6 +74,10 @@ Coming soon...
 
 ### ❇️ CPU and DMA module
 
+<br />
+
+**Parts list**
+
 - Z84C0020PEC (20MHz CPU)
 - Z8410AB1 (4MHz DMA controller)
 
@@ -76,6 +90,10 @@ Coming soon...
 <br />
 
 ### ❇️ Audio module
+
+<br />
+
+**Parts list**
 
 - YM3812 (3.58MHz OPL2 audio chip)
 - Y3014B (DAC for the YM3812)
