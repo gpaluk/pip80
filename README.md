@@ -1,7 +1,7 @@
 ![pip80 logo](assets/logo/pip80-logo-128.png)
 
 # pip80 game console
-The **pip80** is an open-source and collaborative Z80 based homebrew game console. This project was born from the idea that many existing z80 projects are built in an organic way. These projects start with simple goals but, over time, they almost always become increasingly complex.
+The **pip80** is an open-source and collaborative Z80 based homebrew game console. This project was born from the idea that many existing Z80 projects are built in an organic way. These projects start with simple goals but, over time, they almost always become increasingly complex.
 
 The **pip80** is designed to be modular and aims to reduce the runaway effect of adding new components to a single board project. Each module is separated onto it's own board with the following goals:
 
@@ -33,7 +33,7 @@ The **pip80** is based on a modular design that consists of the following module
 - I/O
 - CPU and DMA
 - Banked memory
-- OPL2 audio
+- Philips SAA1099 audio
 - VGA graphics
 
 For increased performance, we have included a **DMA** chip into the **pip80** design. This allows us to deliver data to the sound and/or graphics modules at high speed whilst freeing the CPU for other operations.
@@ -48,7 +48,7 @@ For increased performance, we have included a **DMA** chip into the **pip80** de
 
 **Parts list**
 
-- 56 MHz active crystal oscillator
+- 32 MHz active crystal oscillator
 
 <br />
 
@@ -56,13 +56,12 @@ For increased performance, we have included a **DMA** chip into the **pip80** de
 
 For overall simplicity, our timing module includes a simple frequency divider that produces the following frequencies:
 
-- 56.0 MHz
-- 28.0 MHz
-- 14.0 MHz
-- 7.0 MHz
-- 3.5 MHz
+- 32.0 MHz
+- 16.0 MHz
+- 8.0 MHz
+- 4.0 MHz
 
-This means that various modules will be clocked with frequencies that do not approach their maximum tollerances. For example, our 20MHz CPU will be clocked at 14MHz and our 3.58 MHz OPL2 will be clocked at 3.5 MHz etc.
+This means that various modules will be clocked with frequencies that may not approach their maximum tolerances. For example, our 20 MHz CPU will be clocked at 16 MHz.
 
 <br />
 
@@ -78,8 +77,8 @@ Coming soon...
 
 **Parts list**
 
-- Z84C0020PEC (20MHz CPU)
-- Z8410AB1 (4MHz DMA controller)
+- Z84C0020PEC (20 MHz CPU)
+- Z8410AB1 (4 MHz DMA controller)
 
 <br />
 
@@ -95,12 +94,12 @@ Coming soon...
 
 **Parts list**
 
-- YM3812 (3.58MHz OPL2 audio chip)
-- Y3014B (DAC for the YM3812)
-- TL072CP (Dual Op Amp)
-- SN74HC595N (Shift register)
-- 1N4148 (Signal switching diode)
-- 3.5mm Audio Connector (Headphone socket)
+- Philips SAA1099
+- 2 x 1k resistor
+- 1 x 10k resistor
+- 2 x 1pF capacitor
+- 1 x LED (optional)
+- 1 x 3.5mm Audio Connector (Headphone socket)
 
 <br />
 
@@ -112,7 +111,7 @@ Coming soon...
 
 # 🔹SDK
 
-The **pip80** SDK is written for the C programming language and offers a collection of utilities and routines. The SDK can be found [HERE](sdk/) as part of this repository.
+The **pip80** SDK is written for the C programming language and offers a collection of utilities and routines. The SDK can be found [HERE](sdk/).
 
 <br />
 
