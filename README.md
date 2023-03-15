@@ -94,7 +94,7 @@ Coming soon...
 
 **Parts list**
 
-- Philips SAA1099
+- Philips SAA1099 (8 MHz sound chip)
 - 2 x 1k resistor
 - 1 x 10k resistor
 - 2 x 1pF capacitor
